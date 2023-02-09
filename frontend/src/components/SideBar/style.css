@@ -1,0 +1,21 @@
+.sidebar {
+    width: 150px;
+    height: 100vh;
+    background-color: #191718;
+    position: absolute;
+}
+.sidebar .menuItems .item {
+    width: 100%;
+}
+.sidebar .menuItems a {
+    width: calc(100% - 16px);
+    display: inline-block;
+    padding: 20px 0 ;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 16px;
+}
+.sidebar .menuItems .item:hover a {
+    background-color: #ffffff;
+    color:black
+}
