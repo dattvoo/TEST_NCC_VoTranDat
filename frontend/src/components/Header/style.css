@@ -1,3 +1,4 @@
+
 header .header_desc {
   margin-top: 30px;
   background-color: #efefef;
@@ -16,7 +17,8 @@ header .header_desc .title {
   padding-top: 38px;
 }
 header .header_desc .desc {
-  width: 972px;
+  /* width: 972px; */
+  /* height: 95px; */
   text-indent: 30px;
   font-family: "Roboto";
   font-style: normal;
@@ -27,4 +29,9 @@ header .header_desc .desc {
 
   color: #000000;
   padding-bottom: 38px;
+  padding: 0 100px 38px;
 }
+
+
+
+/* Reponsive */

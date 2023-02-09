@@ -12,19 +12,25 @@ code {
 }
 
 .container {
-  width: 1200px;
-  /* margin: 0 auto 0 0; */
-  margin-right: calc((100vw - 1200px) / 2 - 10%);
-  margin-left: calc((100vw - 1200px) / 2 + 5%);
+  width: 1024px;
+  max-width: 1024px;
+  margin: 0 auto ;
 }
-.column {
-  float: left;
-  width: 33.33%;
+.col-3 {
+  /* float: left; */
+  width: 31%;
 }
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap:30px */
+    /* margin: 0 -5px; */
+}
+@media (max-width: 1200px) {
+    .container {
+      width: 990px;
+    }
 }

@@ -3,9 +3,11 @@
     height: 100vh;
     background-color: #191718;
     position: absolute;
+    /* display: none; */
 }
 .sidebar .menuItems .item {
     width: 100%;
+    border-bottom: 1px solid #5c5c5c;
 }
 .sidebar .menuItems a {
     width: calc(100% - 16px);
