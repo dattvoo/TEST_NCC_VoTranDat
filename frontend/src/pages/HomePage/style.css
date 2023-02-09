@@ -1,16 +1,21 @@
 .homepage {
-    /* width: 100%; */
-    height: 100vh;
-        margin-left: 150px;
-    /* background-color: red; */
+  /* width: 100%; */
+  height: 100vh;
+  margin-left: 150px;
+  /* background-color: red; */
 }
 .homepage header {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 .homepage_logo {
-    text-align: center;
+  text-align: center;
 }
 .homepage_logo img {
-    width: 312px;
-    height: 122px;
+  width: 312px;
+  height: 122px;
+}
+@media (max-width: 739px) {
+  .homepage {
+    margin-left: 0;
+  }
 }

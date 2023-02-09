@@ -1,13 +1,14 @@
-
-import './App.css';
-import { SideBar } from './components/SideBar';
-import { HomePage } from './pages/HomePage';
+import "./App.css";
+import { Footer } from "./components/Footer";
+import { SideBar } from "./components/SideBar";
+import { HomePage } from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <SideBar/>
-      <HomePage/>
+      <SideBar />
+      <HomePage />
+      {/* <Footer/> */}
     </div>
   );
 }

@@ -21,3 +21,10 @@
     background-color: #ffffff;
     color:black
 }
+
+/* Reponsive */
+@media (max-width:739px){
+    .sidebar {
+        display: none;
+    }
+}
